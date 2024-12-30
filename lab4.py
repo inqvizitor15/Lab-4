@@ -66,10 +66,10 @@ if __name__ == '__main__':
     k = 0
     for i in range(len(result_nms)):
 
-        if (k + 1) % 3 == 0 or k + 1 == len(result_nms):
+        if (k + 1) % 2 == 0 or k + 1 == len(result_nms):
             print([result_nms[i]])
 
-        elif k == 0 or (k + 1) % 3 != 0:
+        elif k == 0 or (k + 1) % 2 != 0:
             print([result_nms[i]], end = ', ')
 
         k += 1
