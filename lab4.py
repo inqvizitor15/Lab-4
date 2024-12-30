@@ -73,4 +73,5 @@ if __name__ == '__main__':
             print([result_nms[i]], end = ', ')
 
         k += 1
+
     print(f'Итоговые очки выживания: {max_value}')
